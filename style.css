@@ -40,7 +40,7 @@ body {
     color: #444;
     /* background-image: linear-gradient(270deg, #a8bfe8 0%, #c9d6ff 35%, #e2e2e2 100%); */
     /*background-image: linear-gradient(270deg, #feac5e 0%, #c779d0 35%, #4bc0c8 100%); */
-    background-image: linear-gradient(90deg, #cc95c0 0%, #dbd4b4 35%, #7aa1d2 100%); 
+    /*background-image: linear-gradient(90deg, #cc95c0 0%, #dbd4b4 35%, #7aa1d2 100%);  */
 }
 
 a, a:hover, a:visited, a:active, a:focus {
