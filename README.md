@@ -1,2 +1,2 @@
-# dilsadkutt.github.io
-dilsadkutt.github.io web project is **Dılşad Kut's Personal Web Page**
+# dilsad-kut.github.io
+dilsad-kut.github.io web project is **Dılşad Kut's Personal Web Page**
