@@ -150,8 +150,8 @@ section {
 #editedsection{
     border: 1px solid #aaa;
     padding: 30px 30px 50px;
-     margin-left: 100px;
-     width: 1000px;  
+    margin-left: 100px; 
+    width: 1000px;  
 }
 
 
@@ -286,7 +286,30 @@ section {
     height: 400px;
     width: 100%;
     position: relative;
+    
   
+}
+
+.header2 {  
+    height: 400px;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+}
+.header2-container{
+    width: 400px;
+}
+.main-title2{
+color:white;
+font-weight: 700;
+text-align: left;
+}
+.subtitle2{
+    color: white;
+    text-align: left;
 }
 
 .header:before {
@@ -1146,6 +1169,20 @@ section {
               12. RESPONSIVE
 * ------------------------------------- */
 
+@media (max-width: 1200px) {
+    #editedsection{
+        margin-left: 25%;
+        width: 100%;
+    }
+
+    .header{
+        display: none;
+    }
+    .header2{
+        display: flex;
+    }
+     }
+
 @media (max-width: 991px) { 
 
     body {
@@ -1247,6 +1284,13 @@ section {
     }
 
 }
+
+@media (max-width: 768px) {
+#editedsection{
+    width: 100%;
+    margin-left: 0;
+}
+ }
 
 @media (max-width: 479px) { 
     .process li {
